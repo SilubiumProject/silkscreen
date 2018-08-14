@@ -8,7 +8,7 @@
 
 #### 一、准备阶段
 1. 企业准备一个SLU地址接收数据
-SLU地址可以通过全节点钱包（ http://update.silubium.org ）或网页钱包（ https://webwallet.silubium.org ）获得。
+SLU地址可以通过[全节点钱包](http://update.silubium.org)或网页钱包（ https://webwallet.silubium.org ）获得。
 2. 迪肯公司（ http://www.deaking.net ）在智能合约中为企业授权（单位名称和第1步获得的地址）、提供接口调用方法
 3. 企业在智能合约中设置上链数据类型、是否加密、以及用于加密公钥
 4. 迪肯公司生成数据加密密钥，并以对应数据类型的公钥加密后存入智能合约
