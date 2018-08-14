@@ -4,7 +4,7 @@
 
 
 ### 企业数据上链流程
-适用于使用silkscreen协议上链数据的企业。silkscreen使用主控智能合约进行数据的安全上链。[主控智能合约流程图](https://slugithub.oss-cn-beijing.aliyuncs.com/silkscreen/silkscreen-V5.jpg)
+适用于使用silkscreen协议上链数据的企业。silkscreen使用主控智能合约进行数据的安全上链，参见：[主控智能合约流程图](https://slugithub.oss-cn-beijing.aliyuncs.com/silkscreen/silkscreen-V5.jpg)
 
 #### 一、准备阶段
 1. 企业准备一个SLU地址接收数据
