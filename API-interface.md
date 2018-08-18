@@ -374,7 +374,7 @@ GET /common/option
 |Type|Name|Description|Schema|Default|
 |---|---|---|---|---|
 |**Query**|**fromAddress**  <br>*required*|发送地址|string|`"SLSjc1JSj9oqYkq7fdUFZaGeG8uisYVRihbm"`|
-|**Query**|**optionType**  <br>*required*|操作类型 (2d06177a) (ac18de43)|string|`"2d06177a"`|
+|**Query**|**optionType**  <br>*required*|操作类型 (2d06177a 添加管理员) (ac18de43 移除管理员)|string|`"2d06177a"`|
 |**Query**|**toAddress**  <br>*optional*|接收地址|string|`"SLSawiMgzAVwac8T242JdKJ7MqAMMAeH8wpL"`|
 
 
