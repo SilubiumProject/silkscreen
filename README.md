@@ -23,5 +23,6 @@ SLU地址可以通过[全节点钱包](http://update.silubium.org)或[网页钱�
 
 #### 四、接口方法说明
 1. 自行搭建内部服务器，访问网址为：http://127.0.0.1:7020 
-2. 待补充
+2. 内部服务器搭建完成后，访问API接口网址为:http://127.0.0.1:7020/index.html 该API使用[Swagger UI](https://swagger.io/tools/swagger-ui/)进行接口调试
+
 
