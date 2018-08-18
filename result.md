@@ -1,6 +1,6 @@
 
 <a name="definitions"></a>
-## Definitions
+## 返回结果说明（JSON）
 
 <a name="messageresult"></a>
 ### MessageResult
