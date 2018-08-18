@@ -5,9 +5,9 @@
 
 ### 接口
 
-* 公共接口操作 : Common Controller
-* 公司接口操作 : Company Controller
-* 管理员接口操作 : Manager Controller
+* [公共接口操作](common.md) : Common Controller
+* [公司接口操作](Company.md) : Company Controller
+* [管理员接口操作](Manager.md) : Manager Controller
 
 
 
