@@ -6,7 +6,7 @@
 ### 接口
 
 * [公共接口操作](common.md) : Common Controller
-  -[获取SLU新地址](common.md/getnewaddressusingget)
+
 * [公司接口操作](Company.md) : Company Controller
 
 * [管理员接口操作](Manager.md) : Manager Controller
