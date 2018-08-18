@@ -1,6 +1,6 @@
 
 <a name="paths"></a>
-## Paths
+## 接口文档
 
 <a name="getnewaddressusingget"></a>
 ### 获取SLU新地址
