@@ -358,8 +358,8 @@ POST /common/nodedeploydata
 * 公共接口操作
 
 
-<a name="optiontokenusingget"></a>
-### token操作
+<a name="addmanager"></a>
+### 添加管理员
 ```
 GET /common/option
 ```
@@ -370,7 +370,7 @@ GET /common/option
 |Type|Name|Description|Schema|Default|
 |---|---|---|---|---|
 |**Query**|**fromAddress**  <br>*required*|发送地址|string|`"SLSjc1JSj9oqYkq7fdUFZaGeG8uisYVRihbm"`|
-|**Query**|**optionType**  <br>*required*|操作类型 (2d06177a 添加管理员) (ac18de43 移除管理员)|string|`"2d06177a"`|
+|**Query**|**optionType**  <br>*required*|操作类型 (2d06177a 添加管理员)|string|`"2d06177a"`|
 |**Query**|**toAddress**  <br>*optional*|接收地址|string|`"SLSawiMgzAVwac8T242JdKJ7MqAMMAeH8wpL"`|
 
 
@@ -397,6 +397,48 @@ GET /common/option
 #### Tags
 
 * 公共接口操作
+
+
+<a name="removemanager"></a>
+### 移除管理员
+```
+GET /common/option
+```
+
+
+#### Parameters
+
+|Type|Name|Description|Schema|Default|
+|---|---|---|---|---|
+|**Query**|**fromAddress**  <br>*required*|发送地址|string|`"SLSjc1JSj9oqYkq7fdUFZaGeG8uisYVRihbm"`|
+|**Query**|**optionType**  <br>*required*|操作类型 (ac18de43 移除管理员)|string|`"ac18de43"`|
+|**Query**|**toAddress**  <br>*optional*|接收地址|string|`"SLSawiMgzAVwac8T242JdKJ7MqAMMAeH8wpL"`|
+
+
+#### Responses
+
+|HTTP Code|Description|Schema|
+|---|---|---|
+|**200**|OK|[MessageResult](#messageresult)|
+|**401**|Unauthorized|No Content|
+|**403**|Forbidden|No Content|
+|**404**|Not Found|No Content|
+
+
+#### Consumes
+
+* `application/json`
+
+
+#### Produces
+
+* `\*/*`
+
+
+#### Tags
+
+* 公共接口操作
+
 
 
 <a name="getprivkeybyaddressusingget"></a>
